@@ -52,13 +52,13 @@ jobs:
         bash ./gradlew assembleGitHubRelease
     # 上传 apk
     - name: Upload Pre-Release Apk
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Pre-Release Apk
         path: app/build/outputs/apk/GitHub/release/*.apk
     # 上传 mapping
     - name: Upload Pre-Release Mapping
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Pre-Release Mapping
         path: app/build/outputs/mapping/GitHubRelease/mapping.txt
