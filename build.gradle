@@ -1,7 +1,7 @@
 buildscript {
     ext {
         secret = "${rootDir}/secret.gradle"
-        compose_version = '1.6.0-beta03'
+        compose_version = '1.6.7'
         md3_version = '1.2.0-beta01'
         accompanist_version = '0.32.0'
         mlkit_recognition_version = '16.0.0'
